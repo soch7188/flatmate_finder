@@ -4,9 +4,7 @@
   "description": "Guacamoli Web",
   "engines" : {"node" : "0.10.26"},
   "scripts": {
-    "start": "node server.js",
-    "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
-    "test:watch": "npm test -- --watch"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
