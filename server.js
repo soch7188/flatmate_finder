@@ -1,3 +1,19 @@
+//////////////////////////////////////////////////////////
+// firebase
+//////////////////////////////////////////////////////////
+<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCxEIuUGBV-Ny4eIu46cuN75hsCoBVmXss",
+    authDomain: "hackjam2016underdogflatmate.firebaseapp.com",
+    databaseURL: "https://hackjam2016underdogflatmate.firebaseio.com",
+    storageBucket: "hackjam2016underdogflatmate.appspot.com",
+    messagingSenderId: "979213610760"
+  };
+  firebase.initializeApp(config);
+</script>
+
 
 //////////////////////////////////////////////////////////
 // configurations
